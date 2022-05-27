@@ -10,12 +10,13 @@ dataset.py
 
 ## model
 Net.py
+loss.py
 
 ## running
 train.py
 
 ## data
-The data folder includes five MR volumes(imagex.nii.gz) and their ground truth(labelx.nii.gz).
+The data folder includes five MR volumes(imgx.nii.gz) and their corresponding ground truth(labelx.nii.gz).
 
  
 
