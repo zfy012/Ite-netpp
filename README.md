@@ -14,6 +14,9 @@ Net.py
 ## running
 train.py
 
+## data
+The data folder includes five MR volumes(imagex.nii.gz) and their ground truth(labelx.nii.gz).
+
  
 
 
