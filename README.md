@@ -1,23 +1,20 @@
 # General purpose medical segmentation
-对2D CT和3D MR 肝脏图像进行分割
+This program can segment liver tissue for 2D CT slices and 3D MR volumes using the deep learning technique.
+This method based on UNet++ architecture integrates the probabilistic map into the encoder of network.
+The network is trained in an iterative fashion, since the probabilistic map comes from the previous classifier.
 
-## 数据增强
-augmentation.py脚本文件，批量处理nii文件
 
-##模型
+## data augmentation
+augmentation.py
+dataset.py
+
+## model
 Net.py
 
-## 运行模型
-
+## running
 train.py
-dataset.py
+
  
 
-## 参考
 
-unet
-
-unet++
-
-auto-context
 
